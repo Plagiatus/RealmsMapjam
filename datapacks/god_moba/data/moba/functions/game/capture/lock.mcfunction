@@ -3,8 +3,8 @@ data modify entity @e[type=text_display,limit=1,sort=nearest] text set value "lo
 scoreboard players operation @s capture = #tmp capture
 
 # scoreboard players operation @s tmp = @s capture
-execute if score @s capture matches ..-1 run scoreboard players operation @s capture < @s min_capture
-execute if score @s capture matches 1.. run scoreboard players operation @s capture > @s max_capture
+execute if score @s capture matches ..-1 run scoreboard players operation @s capture = @s min_capture
+execute if score @s capture matches 1.. run scoreboard players operation @s capture = @s max_capture
 # # execute if entity @s[tag=!captured] run scoreboard players set @s capture 0
 
 execute if score @s size matches 1 if score @s capture = @s max_capture run fill ~ ~ ~ ~10 ~ ~10 red_concrete

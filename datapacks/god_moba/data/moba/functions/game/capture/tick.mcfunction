@@ -19,6 +19,7 @@ scoreboard players operation #half tmp = #length tmp
 scoreboard players operation #half tmp /= 2 const
 
 # update capture status
+# tellraw @a ["tick: capture: ", {"score":{"name": "@s", "objective": "tmp"}}]
 execute unless score @s tmp = @s capture run function moba:game/capture/update
 
 # if fully captured, update nearby capture points

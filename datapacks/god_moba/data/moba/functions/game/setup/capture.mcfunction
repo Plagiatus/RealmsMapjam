@@ -26,6 +26,7 @@ execute if entity @s[scores={size=3,capture=..-1}] run fill ~ ~ ~ ~20 ~ ~20 blue
 
 scoreboard players set @s[tag=!locked] capture 0
 
+execute if entity @s[tag=!lane1,tag=!lane2] run scoreboard players set @s lane 0
 execute if entity @s[tag=lane1] run scoreboard players set @s lane 1
 execute if entity @s[tag=lane2] run scoreboard players set @s lane 2
 
