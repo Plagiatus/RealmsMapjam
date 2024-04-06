@@ -30,5 +30,9 @@ execute if score @s capture < @s tmp if score @s capture matches ..-1 run data m
 
 function moba:game/capture/update_block with storage moba:tmp
 
+execute if score @s tmp matches 0 run function moba:game/capture/uncapture
+
 execute if score @s capture > @s tmp run scoreboard players add @s tmp 1
 execute if score @s capture < @s tmp run scoreboard players remove @s tmp 1
+
+function moba:game/capture/update

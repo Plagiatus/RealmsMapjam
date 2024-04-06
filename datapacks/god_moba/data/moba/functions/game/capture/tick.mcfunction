@@ -24,4 +24,5 @@ execute unless score @s tmp = @s capture run function moba:game/capture/update
 # if fully captured, update nearby capture points
 execute store result storage moba:tmp id int 1 run scoreboard players get @s id
 execute store result storage moba:tmp lane int 1 run scoreboard players get @s lane
-execute if score @s capture = @s max_capture run function moba:game/capture/fully_captured with storage moba:tmp
+execute if score @s[tag=!captured] capture = @s max_capture run function moba:game/capture/fully_captured with storage moba:tmp
+execute if score @s[tag=!captured] capture = @s min_capture run function moba:game/capture/fully_captured with storage moba:tmp
