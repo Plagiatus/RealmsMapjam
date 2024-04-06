@@ -8,6 +8,7 @@ scoreboard objectives add size dummy
 scoreboard objectives add tmp dummy
 scoreboard objectives add id dummy
 scoreboard objectives add lane dummy
+scoreboard objectives add god dummy
 
 scoreboard objectives add cd.1 dummy
 scoreboard objectives add cd.2 dummy

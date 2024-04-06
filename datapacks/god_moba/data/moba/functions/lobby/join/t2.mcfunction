@@ -1,0 +1,1 @@
+team join t2 @p
