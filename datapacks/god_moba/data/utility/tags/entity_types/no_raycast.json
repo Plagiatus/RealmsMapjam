@@ -1,0 +1,9 @@
+{
+    "values": [
+        "item_display",
+        "text_display",
+        "block_display",
+        "marker",
+        "area_effect_cloud"
+    ]   
+}
