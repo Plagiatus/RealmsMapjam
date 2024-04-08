@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides": [
+		{"predicate": {"custom_model_data":100}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":101}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":102}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":103}, "model": "godmoba:item/abilities/zeus/thundercloud"}
+	]
+}
