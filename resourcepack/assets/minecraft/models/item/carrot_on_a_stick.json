@@ -7,6 +7,12 @@
 		{"predicate": {"custom_model_data":100}, "model": "godmoba:item/abilities/zeus/thundercloud"},
 		{"predicate": {"custom_model_data":101}, "model": "godmoba:item/abilities/zeus/thundercloud"},
 		{"predicate": {"custom_model_data":102}, "model": "godmoba:item/abilities/zeus/thundercloud"},
-		{"predicate": {"custom_model_data":103}, "model": "godmoba:item/abilities/zeus/thundercloud"}
+		{"predicate": {"custom_model_data":103}, "model": "godmoba:item/abilities/zeus/thundercloud_disabled"},
+		{"predicate": {"custom_model_data":104}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":105}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":106}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":107}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":108}, "model": "godmoba:item/abilities/zeus/thundercloud"},
+		{"predicate": {"custom_model_data":109}, "model": "godmoba:item/abilities/zeus/thundercloud"}
 	]
 }
