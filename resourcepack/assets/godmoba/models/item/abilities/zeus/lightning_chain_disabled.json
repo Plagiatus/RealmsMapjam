@@ -1,0 +1,7 @@
+{
+	"parent": "godmoba:item/abilities/ability",
+	"textures": {
+		"ability_icon": "godmoba:item/abilities/zeus/lightning_chain_disabled",
+		"particle": "godmoba:item/abilities/zeus/lightning_chain_disabled"
+	}
+}
