@@ -1,1 +1,2 @@
-execute at @s anchored eyes positioned ^ ^ ^ anchored feet run function utility:raycast/block {step_size: 0.1, max_steps: 50, function: "moba:game/abilities/god/1/2_found"}
+scoreboard players set @s poseidon.sea_squall 160
+effect give @s speed 8 1 false

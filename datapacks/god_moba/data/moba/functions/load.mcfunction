@@ -21,6 +21,8 @@ team add spectator
 
 team modify t1 color red
 team modify t2 color dark_aqua
+team modify t1 friendlyFire false
+team modify t2 friendlyFire false
 
 scoreboard objectives add const dummy
 scoreboard players set -1 const -1

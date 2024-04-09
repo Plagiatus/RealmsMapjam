@@ -1,1 +1,1 @@
-say ability 4
+scoreboard players set @s poseidon.dolphin 180

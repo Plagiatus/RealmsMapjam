@@ -1,1 +1,1 @@
-execute at @s anchored eyes positioned ^ ^ ^ anchored feet run function utility:raycast/entity {step_size: 0.1, max_steps: 50, function: "moba:game/abilities/god/1/3_found"}
+execute if entity @s[team=t1] as @a[team=t1,distance=..5] at @s run function moba:game/abilities/god/1/3_execute

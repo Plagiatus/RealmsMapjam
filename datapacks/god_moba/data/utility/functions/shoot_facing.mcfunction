@@ -6,7 +6,7 @@
 # {force}: The amount of force, translating to the speed of the entity. max 10.
 
 # summon temporary entity "in front of the player", if the player was standing at 0 0 0
-$execute as $(source) at @s positioned 0.0 0 0.0 run summon marker ^ ^ ^$(force) {Tags:["direction"]}
+$execute as $(source) positioned 0.0 0 0.0 run summon marker ^ ^ ^$(force) {Tags:["direction"]}
 
 # copy the markers position tag to the sheeps motion tag
 $data modify entity $(target) Motion set from entity @e[type=marker,tag=direction,limit=1] Pos

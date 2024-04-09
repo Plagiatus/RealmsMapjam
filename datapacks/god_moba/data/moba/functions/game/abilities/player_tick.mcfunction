@@ -1,6 +1,8 @@
 # executed as all non-spectator players
 
-# 
+# player only abilities
+execute as @s[scores={poseidon.sea_squall=1..}] run function moba:game/abilities/god/1/2_tick
+execute as @s[scores={poseidon.dolphin=1..}] run function moba:game/abilities/god/1/4_tick
 execute as @s[scores={zeus.king_of_gods=1..}] run function moba:game/abilities/god/2/4_tick
 
 # count down all weapon cooldowns
