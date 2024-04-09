@@ -8,7 +8,9 @@
 # {max_steps} The maximum steps the ray should travel
 # {function} the function to call when the block was found
 
+tag @s add self
 $scoreboard players set #steps tmp $(max_steps)
 $data merge storage util:ray {step_size: $(step_size), function: "$(function)"}
 scoreboard players set #found tmp 0
 function utility:raycast/helper/block with storage util:ray
+tag @s remove self

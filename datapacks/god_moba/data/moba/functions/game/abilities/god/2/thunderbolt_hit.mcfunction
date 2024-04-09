@@ -9,4 +9,5 @@ playsound entity.lightning_bolt.impact master @a
 execute if entity @s[tag=self] run return 0
 
 # damage
-damage @s 7 lightning_bolt
+function utility:damage {target: "@s", amount: 7, type: "lightning_bolt", attacker: "@a[tag=self,limit=1]"}
+damage @s 7 lightning_bolt by @a[tag=self,limit=1]

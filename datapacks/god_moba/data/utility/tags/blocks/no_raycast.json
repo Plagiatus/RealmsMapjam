@@ -1,0 +1,20 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "tall_grass",
+        "large_fern",
+        "#tall_flowers",
+        "#small_flowers",
+        "big_dripleaf",
+        "big_dripleaf_stem",
+        "fern",
+        "short_grass",
+        "#stone_buttons",
+        "#wooden_buttons",
+        "#all_signs",
+        "#stone_pressure_plates",
+        "#wooden_pressure_plates"
+    ]
+}

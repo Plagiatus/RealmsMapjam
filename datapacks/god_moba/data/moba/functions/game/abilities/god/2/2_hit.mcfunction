@@ -1,0 +1,1 @@
+execute positioned ~ ~1 ~ summon marker run function moba:game/abilities/god/2/2_hit_2

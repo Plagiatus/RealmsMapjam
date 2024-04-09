@@ -1,4 +1,4 @@
-$execute unless block ^ ^ ^$(step_size) air run return run function $(function)
+$execute unless block ^ ^ ^$(step_size) #utility:no_raycast run return run function $(function)
 
 scoreboard players remove #steps tmp 1
 $execute if score #steps tmp matches 0 run function $(function)

@@ -6,3 +6,4 @@ execute as @e[tag=capture,type=marker,tag=!locked] at @s run function moba:game/
 
 # abilities
 execute as @a[team=!spectator] at @s run function moba:game/abilities/player_tick
+execute as @e[tag=ability] at @s run function moba:game/abilities/tick
