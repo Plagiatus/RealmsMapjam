@@ -5,11 +5,14 @@
 #> parameters
 # {step_size} How large the steps of the ray should be
 # {max_steps} The maximum steps the ray should travel
-# {function} the function to call when the block was found
+# {run_always} Whether or not to call the function at the end of the ray even without a hit
+# {function} the function to call when the entity was found
+# {step_function} the function to call when the entity was found
 
 tag @s add self
 $scoreboard players set #steps tmp $(max_steps)
-$data merge storage util:ray {step_size: $(step_size), function: "$(function)"}
+$scoreboard players set #always tmp $(run_always)
+$data merge storage util:ray {step_size: $(step_size), function: "$(function)", step_function: "$(step_function)"}
 scoreboard players set #found tmp 0
 function utility:raycast/helper/entity with storage util:ray
 tag @s remove self
