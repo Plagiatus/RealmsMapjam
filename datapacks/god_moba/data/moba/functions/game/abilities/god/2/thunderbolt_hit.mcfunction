@@ -15,4 +15,4 @@ function utility:damage {target: "@s", amount: 3, type: "lightning_bolt", attack
 # spark tick
 scoreboard players add @s zeus.spark 1
 scoreboard players operation @s zeus.spark < 3 const
-scoreboard players set @s zeus.spark 60
+scoreboard players set @s zeus.spark_timer 60
