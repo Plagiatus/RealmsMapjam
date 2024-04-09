@@ -1,5 +1,10 @@
 # executed as all non-spectator players
 
+# 
+execute as @s[scores={king_of_gods=1..}] run function moba:game/abilities/god/2/4_tick
+
+
+
 # count down all weapon cooldowns
 scoreboard players remove @s cd.1 1
 scoreboard players remove @s cd.2 1
