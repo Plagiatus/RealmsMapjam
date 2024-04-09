@@ -26,5 +26,6 @@ gamerule doPatrolSpawning false
 gamerule doTraderSpawning false
 gamerule doWardenSpawning false
 gamerule naturalRegeneration false
+gamerule keepInventory false
 
 # TODO some fancy stuff here, particles, sounds, maybe a start timer, or at least a title. 

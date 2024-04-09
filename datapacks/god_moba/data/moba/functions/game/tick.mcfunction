@@ -5,5 +5,4 @@ execute as @e[tag=capture,type=marker,tag=!locked] at @s run function moba:game/
 # execute if entity @a[tag=diety] as @a run function moba:weapon/player_tick
 
 # abilities
-execute as @a[team=!spectator] at @s run function moba:game/abilities/player_tick
-execute as @e[tag=ability] at @s run function moba:game/abilities/tick
+function moba:game/abilities/tick

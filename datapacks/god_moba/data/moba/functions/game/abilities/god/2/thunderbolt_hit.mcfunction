@@ -9,5 +9,10 @@ playsound entity.lightning_bolt.impact master @a
 execute if entity @s[tag=self] run return 0
 
 # damage
-function utility:damage {target: "@s", amount: 7, type: "lightning_bolt", attacker: "@a[tag=self,limit=1]"}
-damage @s 7 lightning_bolt by @a[tag=self,limit=1]
+function utility:damage {target: "@s", amount: 3, type: "lightning_bolt", attacker: "@a[tag=self,limit=1]"}
+# damage @s 7 lightning_bolt by @a[tag=self,limit=1]
+
+# spark tick
+scoreboard players add @s zeus.spark 1
+scoreboard players operation @s zeus.spark < 3 const
+scoreboard players set @s zeus.spark 60

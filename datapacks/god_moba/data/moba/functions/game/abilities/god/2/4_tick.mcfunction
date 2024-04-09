@@ -1,1 +1,1 @@
-scoreboard players remove @s king_of_gods 1
+scoreboard players remove @s zeus.king_of_gods 1
