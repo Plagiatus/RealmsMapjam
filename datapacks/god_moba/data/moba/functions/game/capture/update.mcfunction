@@ -26,7 +26,7 @@ execute store result storage moba:tmp col int 1 run scoreboard players operation
 
 data modify storage moba:tmp block set value "white_concrete"
 execute if score @s capture > @s tmp if score @s capture matches 1.. run data modify storage moba:tmp block set value "red_concrete"
-execute if score @s capture < @s tmp if score @s capture matches ..-1 run data modify storage moba:tmp block set value "blue_concrete"
+execute if score @s capture < @s tmp if score @s capture matches ..-1 run data modify storage moba:tmp block set value "cyan_concrete"
 
 function moba:game/capture/update_block with storage moba:tmp
 

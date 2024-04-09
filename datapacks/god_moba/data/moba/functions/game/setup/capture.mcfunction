@@ -20,9 +20,9 @@ execute if entity @s[tag=t2] run scoreboard players operation @s capture = @s mi
 execute if entity @s[scores={size=1,capture=1..}] run fill ~ ~ ~ ~10 ~ ~10 red_concrete 
 execute if entity @s[scores={size=2,capture=1..}] run fill ~ ~ ~ ~14 ~ ~14 red_concrete 
 execute if entity @s[scores={size=3,capture=1..}] run fill ~ ~ ~ ~20 ~ ~20 red_concrete
-execute if entity @s[scores={size=1,capture=..-1}] run fill ~ ~ ~ ~10 ~ ~10 blue_concrete 
-execute if entity @s[scores={size=2,capture=..-1}] run fill ~ ~ ~ ~14 ~ ~14 blue_concrete 
-execute if entity @s[scores={size=3,capture=..-1}] run fill ~ ~ ~ ~20 ~ ~20 blue_concrete
+execute if entity @s[scores={size=1,capture=..-1}] run fill ~ ~ ~ ~10 ~ ~10 cyan_concrete 
+execute if entity @s[scores={size=2,capture=..-1}] run fill ~ ~ ~ ~14 ~ ~14 cyan_concrete 
+execute if entity @s[scores={size=3,capture=..-1}] run fill ~ ~ ~ ~20 ~ ~20 cyan_concrete
 
 scoreboard players set @s[tag=!locked] capture 0
 

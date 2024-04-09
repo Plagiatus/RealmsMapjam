@@ -15,4 +15,16 @@ execute as @a[team=!spectator] unless score @s god = @s god store result score @
 function moba:game/setup/reset_entities
 execute as @a[team=!spectator] run function moba:game/setup/items
 
+
+# gamerules
+gamerule mobGriefing false
+gamerule doEntityDrops false
+gamerule announceAdvancements false
+gamerule doDaylightCycle false
+gamerule doMobSpawning false
+gamerule doPatrolSpawning false
+gamerule doTraderSpawning false
+gamerule doWardenSpawning false
+gamerule naturalRegeneration false
+
 # TODO some fancy stuff here, particles, sounds, maybe a start timer, or at least a title. 
