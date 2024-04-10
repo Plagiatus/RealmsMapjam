@@ -2,7 +2,7 @@
 # setup the weapon cooldowns
 scoreboard players set #god1 cd.1 30
 scoreboard players set #god1 cd.2 340
-scoreboard players set #god1 cd.3 600
+scoreboard players set #god1 cd.3 800
 scoreboard players set #god1 cd.4 1200
 
 scoreboard players set #god2 cd.1 20

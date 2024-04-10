@@ -15,6 +15,9 @@ scoreboard objectives add cd.2 dummy
 scoreboard objectives add cd.3 dummy
 scoreboard objectives add cd.4 dummy
 
+scoreboard objectives add leave custom:leave_game
+scoreboard objectives add gameId dummy
+
 team add t1
 team add t2
 team add spectator
@@ -32,5 +35,6 @@ scoreboard players set 5 const 5
 scoreboard players set 10 const 10
 scoreboard players set 20 const 20
 
-function moba:weapon/load
+scoreboard players add #game gameId 1
+
 function moba:game/abilities/setup

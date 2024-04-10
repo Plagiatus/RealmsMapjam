@@ -1,5 +1,7 @@
 # executed as all non-spectator players
 
+effect give @s speed 1 0 true
+
 # player only abilities
 execute as @s[scores={poseidon.sea_squall=1..}] run function moba:game/abilities/god/1/2_tick
 execute as @s[scores={poseidon.dolphin=1..}] run function moba:game/abilities/god/1/4_tick
