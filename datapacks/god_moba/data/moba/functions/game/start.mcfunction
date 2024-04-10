@@ -23,7 +23,7 @@ execute as @a[team=!spectator] run function moba:game/setup/items
 
 # gamerules
 gamerule mobGriefing false
-gamerule doEntityDrops false
+gamerule doEntityDrops true
 gamerule announceAdvancements false
 gamerule doDaylightCycle false
 gamerule doMobSpawning false
@@ -35,6 +35,7 @@ gamerule keepInventory true
 gamerule showDeathMessages false
 gamerule doImmediateRespawn true
 gamerule doWeatherCycle false
+gamerule doMobLoot true
 
 weather clear
 

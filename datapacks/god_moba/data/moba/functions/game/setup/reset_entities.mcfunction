@@ -1,4 +1,5 @@
 kill @e[tag=!keep,type=marker]
+kill @e[tag=junglemonster]
 
 # capture points
 summon marker -6 65 -23 {Tags:["capture","locked", "large", "t2"]}
@@ -55,3 +56,19 @@ setblock -40 85 -160 white_stained_glass
 setblock -40 85 -202 white_stained_glass
 setblock -40 85 -234 red_stained_glass
 setblock -40 86 -290 red_stained_glass
+
+# jungle mobs
+summon marker -7 70 -299 {Tags:["jungle", "ws"]}
+summon marker 11 71 -251 {Tags:["jungle", "ravager"]}
+summon marker 27 72 -224 {Tags:["jungle", "wolves"]}
+summon marker -10 72 -232 {Tags:["jungle", "bz"]}
+
+summon marker 4 72 -181 {Tags:["jungle", "wither"]}
+
+summon marker -15 70 -63 {Tags:["jungle", "ws"]}
+summon marker -3 71 -111 {Tags:["jungle", "ravager"]}
+summon marker -19 72 -138 {Tags:["jungle", "wolves"]}
+summon marker 18 72 -130 {Tags:["jungle", "bz"]}
+
+scoreboard players set #max jungleid 1
+execute as @e[tag=jungle] at @s run function moba:game/setup/jungle
