@@ -6,6 +6,8 @@ effect give @s speed 1 0 true
 execute as @s[scores={poseidon.sea_squall=1..}] run function moba:game/abilities/god/1/2_tick
 execute as @s[scores={poseidon.dolphin=1..}] run function moba:game/abilities/god/1/4_tick
 execute as @s[scores={zeus.king_of_gods=1..}] run function moba:game/abilities/god/2/4_tick
+execute as @a[scores={drank_honey=1..},team=t1] run function moba:game/abilities/back_to_base_t1
+execute as @a[scores={drank_honey=1..},team=t2] run function moba:game/abilities/back_to_base_t2
 
 # count down all weapon cooldowns
 scoreboard players remove @s cd.1 1

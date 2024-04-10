@@ -27,3 +27,5 @@ scoreboard objectives add poseidon.dolphin dummy
 scoreboard objectives add hades.downward dummy
 scoreboard objectives add hades.dog dummy
 scoreboard objectives add hades.valley dummy
+
+scoreboard objectives add drank_honey minecraft.used:minecraft.honey_bottle
