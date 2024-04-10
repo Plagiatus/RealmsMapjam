@@ -8,6 +8,9 @@ scoreboard players set @a leave 0
 # abilities
 function moba:game/abilities/tick
 
+# monsters
+function moba:game/monsters/tick
+
 # keeping players fed
 effect give @a saturation 1 10 true
 

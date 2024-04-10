@@ -1,12 +1,14 @@
 scoreboard objectives add status dummy
 scoreboard objectives add settings dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add max_timer dummy
 scoreboard objectives add capture dummy
 scoreboard objectives add max_capture dummy
 scoreboard objectives add min_capture dummy
 scoreboard objectives add size dummy
 scoreboard objectives add tmp dummy
 scoreboard objectives add id dummy
+scoreboard objectives add jungleid dummy
 scoreboard objectives add lane dummy
 scoreboard objectives add god dummy
 
