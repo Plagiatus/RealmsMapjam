@@ -33,25 +33,25 @@ summon marker 48 85 -128 {Tags:["beacon"]}
 summon marker 48 85 -160 {Tags:["beacon"]}
 summon marker 48 85 -202 {Tags:["beacon"]}
 summon marker 48 85 -234 {Tags:["beacon"]}
-summon marker 48 85 -290 {Tags:["beacon"]}
+summon marker 48 86 -290 {Tags:["beacon"]}
 
 summon marker -40 86 -72 {Tags:["beacon"]}
 summon marker -40 85 -128 {Tags:["beacon"]}
 summon marker -40 85 -160 {Tags:["beacon"]}
 summon marker -40 85 -202 {Tags:["beacon"]}
 summon marker -40 85 -234 {Tags:["beacon"]}
-summon marker -40 85 -290 {Tags:["beacon"]}
+summon marker -40 86 -290 {Tags:["beacon"]}
 
 setblock 48 86 -72 cyan_stained_glass
 setblock 48 85 -128 cyan_stained_glass
 setblock 48 85 -160 white_stained_glass
 setblock 48 85 -202 white_stained_glass
 setblock 48 85 -234 red_stained_glass
-setblock 48 85 -290 red_stained_glass
+setblock 48 86 -290 red_stained_glass
 
 setblock -40 86 -72 cyan_stained_glass
 setblock -40 85 -128 cyan_stained_glass
 setblock -40 85 -160 white_stained_glass
 setblock -40 85 -202 white_stained_glass
 setblock -40 85 -234 red_stained_glass
-setblock -40 85 -290 red_stained_glass
+setblock -40 86 -290 red_stained_glass

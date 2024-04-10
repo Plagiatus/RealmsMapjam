@@ -1,11 +1,11 @@
 scoreboard players set #game status 1
 
 # tp teams
-tp @a[team=t1] 4 65 21
-tp @a[team=t2] 4 65 -401
+tp @a[team=t1] 4 66 -383
+tp @a[team=t2] 4 66 21
 
-spawnpoint @a[team=t1] 4 65 21
-spawnpoint @a[team=t2] 4 65 -401
+spawnpoint @a[team=t1] 4 66 -383
+spawnpoint @a[team=t2] 4 66 21
 
 # put players without a team into spectator
 team join spectator @a[team=]
@@ -29,7 +29,7 @@ gamerule doPatrolSpawning false
 gamerule doTraderSpawning false
 gamerule doWardenSpawning false
 gamerule naturalRegeneration false
-gamerule keepInventory false
+gamerule keepInventory true
 gamerule showDeathMessages false
 
 # TODO some fancy stuff here, particles, sounds, maybe a start timer, or at least a title. 

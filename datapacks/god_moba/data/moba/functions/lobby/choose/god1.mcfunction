@@ -1,2 +1,2 @@
-scoreboard players set @p god 1
-tellraw @p [{"text": "You chose <god 1>.", "color": "green"}]
+scoreboard players set @s god 1
+tellraw @s [{"text": "You chose ", "color": "green"}, {"text": "Poseidon", "color": "blue"}]

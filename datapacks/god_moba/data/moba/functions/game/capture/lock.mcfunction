@@ -1,5 +1,5 @@
 tag @s add locked
-data modify entity @e[type=text_display,limit=1,sort=nearest] text set value "locked"
+# data modify entity @e[type=text_display,limit=1,sort=nearest] text set value "locked"
 scoreboard players operation @s capture = #tmp capture
 
 # scoreboard players operation @s tmp = @s capture

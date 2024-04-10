@@ -22,8 +22,8 @@ execute if score @s capture = @s min_capture if score @s id matches ..2 as @e[ta
 execute if score @s capture = @s min_capture if score @s id matches 11.. as @e[tag=capture,type=marker,scores={id=13,lane=0},distance=1..,limit=1,sort=nearest] at @s run function moba:game/capture/lock
 
 tag @s add captured
-data modify entity @e[type=text_display,limit=1,sort=nearest] text set value "captured"
+# data modify entity @e[type=text_display,limit=1,sort=nearest] text set value "captured"
 execute if score @s capture = @s max_capture at @e[tag=beacon,type=marker,limit=1,sort=nearest] run setblock ~ ~ ~ red_stained_glass
 execute if score @s capture = @s min_capture at @e[tag=beacon,type=marker,limit=1,sort=nearest] run setblock ~ ~ ~ cyan_stained_glass
 
-tellraw @a ["captured me ", {"score": {"name": "@s", "objective": "id"}}]
+# tellraw @a ["captured me ", {"score": {"name": "@s", "objective": "id"}}]

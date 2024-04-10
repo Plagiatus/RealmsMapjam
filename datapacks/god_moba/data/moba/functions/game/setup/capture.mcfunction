@@ -30,8 +30,8 @@ execute if entity @s[tag=!lane1,tag=!lane2] run scoreboard players set @s lane 0
 execute if entity @s[tag=lane1] run scoreboard players set @s lane 1
 execute if entity @s[tag=lane2] run scoreboard players set @s lane 2
 
-execute if entity @s[tag=locked] run summon text_display ~ ~1 ~ {text:'"locked"',billboard:"center",Tags:["capture"]}
-execute if entity @s[tag=!locked] run summon text_display ~ ~1 ~ {text:'"available"',billboard:"center",Tags:["capture"]}
+# execute if entity @s[tag=locked] run summon text_display ~ ~1 ~ {text:'"locked"',billboard:"center",Tags:["capture"]}
+# execute if entity @s[tag=!locked] run summon text_display ~ ~1 ~ {text:'"available"',billboard:"center",Tags:["capture"]}
 
 # ids
 scoreboard players operation @s id = #max id
