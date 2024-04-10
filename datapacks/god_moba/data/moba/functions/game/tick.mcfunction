@@ -10,6 +10,7 @@ function moba:game/abilities/tick
 
 # monsters
 function moba:game/monsters/tick
+kill @e[type=experience_orb]
 
 # keeping players fed
 effect give @a saturation 1 10 true

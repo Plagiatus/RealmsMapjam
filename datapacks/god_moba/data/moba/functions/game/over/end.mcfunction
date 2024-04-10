@@ -4,6 +4,11 @@ scoreboard players reset * cd.2
 scoreboard players reset * cd.3
 scoreboard players reset * cd.4
 
+effect clear @a
+kill @e[type=!player,team=!]
+kill @e[tag=junglemonster]
+kill @e[type=item]
+
 tp @a 3 85 -435
 team empty spectator
 team empty t1

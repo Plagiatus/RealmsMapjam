@@ -1,7 +1,7 @@
 kill @e[tag=lobby]
 
 summon item_display 12.3 88 -436 {Tags: ["lobby"], brightness: {block: 15, sky: 15}, transformation: {left_rotation: [0f, -0.707f, 0f, 0.707f], right_rotation: [0f, 0f, 0f, 1f], translation: [0f, 0f, 0f], scale: [5f, 5f, 5f]}, item: {id: "minecraft:stick", Count: 1b, tag: {CustomModelData: 1}}, Rotation: [0, 90]}
-summon text_display 3 89 -428 {Tags: ["lobby"], brightness: {block: 15, sky: 15}, transformation: {left_rotation: [0f, 1.0f, 0f, 0.0f], right_rotation: [0f, 0f, 0f, 1f], translation: [0f, 0f, 0f], scale: [1f, 1f, 1f]}, text: '[{"text":"Welcome to\\n"}, {"text": "Clash of Olympus\\n\\n", "color": "gold"}, {"text": "You are gods with godly abilities. Fight the other team and capture their temples on either side to get access to their main temple. Once you capture that you are declared the ruler of Olympus!"}]'}
+summon text_display 3 86 -428 {Tags: ["lobby"], brightness: {block: 15, sky: 15}, transformation: {left_rotation: [0f, 1.0f, 0f, 0.0f], right_rotation: [0f, 0f, 0f, 1f], translation: [0f, 0f, 0f], scale: [1f, 1f, 1f]}, text: '[{"text":"Welcome to\\n"}, {"text": "Clash of Olympus\\n\\n", "color": "gold"}, {"text": "You are gods with godly abilities. Fight the other team and capture their temples on either side to get access to their main temple. Once you capture that you are declared the ruler of Olympus!\\n\\nPick a god to fight as and pick a team before you start.\\n\\n\\n\\nCreated by Cxom, Plagiatus and Robeens\\nFor the Java Realms Creator Anniversary Mapjam"}]'}
 
 summon interaction 3.6 85 -440.2 {width: 1, height: 2.1f,Tags:["lobby","god","god1"], response:true}
 summon interaction -0.3 85 -439.9 {width: 1, height: 2.1f,Tags:["lobby","god","god2"], response:true}
