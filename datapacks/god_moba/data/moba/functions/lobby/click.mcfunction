@@ -1,0 +1,1 @@
+execute if entity @s[tag=god] run function moba:lobby/choose/god

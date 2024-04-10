@@ -4,6 +4,9 @@ scoreboard players set #game status 1
 tp @a[team=t1] 4 65 21
 tp @a[team=t2] 4 65 -401
 
+spawnpoint @a[team=t1] 4 65 21
+spawnpoint @a[team=t2] 4 65 -401
+
 # put players without a team into spectator
 team join spectator @a[team=]
 tp @a[team=spectator] @a[limit=1,sort=random,team=!spectator]
