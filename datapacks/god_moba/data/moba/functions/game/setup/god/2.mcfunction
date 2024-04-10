@@ -1,7 +1,7 @@
-item replace entity @s hotbar.0 with carrot_on_a_stick{ability:1,CustomModelData:100,enabled:100,disabled:101,display:{Name:'{"text": "Thunderbolt"}'}}
-item replace entity @s hotbar.1 with carrot_on_a_stick{ability:2,CustomModelData:102,enabled:102,disabled:103,display:{Name:'{"text": "Thunder Cloud"}'}}
-item replace entity @s hotbar.2 with carrot_on_a_stick{ability:3,CustomModelData:104,enabled:104,disabled:105,display:{Name:'{"text": "Spark of Lightning"}'}}
-item replace entity @s hotbar.3 with carrot_on_a_stick{ability:4,CustomModelData:106,enabled:106,disabled:107,display:{Name:'{"text": "King of Gods"}'}}
+item replace entity @s hotbar.0 with carrot_on_a_stick{ability:1,CustomModelData:100,enabled:100,disabled:101,display:{Name:'{"text": "Thunderbolt"}',Lore:['{"text":"Throw a thunder bolt. Does 3 damage"}','{"text":"and adds 1 spark to the hit enemy"}','{"text":"Sparks stack up to 3. After not being "}','{"text":"hit for 3 seconds, all sparks vanish."}']}}
+item replace entity @s hotbar.1 with carrot_on_a_stick{ability:2,CustomModelData:102,enabled:102,disabled:103,display:{Name:'{"text": "Thunder Cloud"}',Lore:['{"text":"Summon a thundercloud at the targeted block."}','{"text":"The thundercloud remains for 3 seconds."}','{"text":"Enemies in the thundercloud are slowed,"}','{"text":"and lightning spawns every second, dealing."}','{"text":"5 damage to all enemies inside."}']}}
+item replace entity @s hotbar.2 with carrot_on_a_stick{ability:3,CustomModelData:104,enabled:104,disabled:105,display:{Name:'{"text": "Spark of Lightning"}',Lore:['{"text":"Explodes the accumulated sparks on enemies."}','{"text":"Deals 3 damage to each enemy for every spark, and"}','{"text":"gives Slowness with level equal to # of sparks"}']}}
+item replace entity @s hotbar.3 with carrot_on_a_stick{ability:4,CustomModelData:106,enabled:106,disabled:107,display:{Name:'{"text": "King of Gods"}',Lore:['{"text":"Doubles capturing power for all alive"}','{"text":"allied players for 30 seconds."}']}}
 
 item replace entity @s armor.head with small_amethyst_bud{display:{Name:'{"text":"Zeus\'s Helm"}'},CustomModelData:1}
 item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Zeus\'s Armor"}',color:1},CustomModelData:1}
