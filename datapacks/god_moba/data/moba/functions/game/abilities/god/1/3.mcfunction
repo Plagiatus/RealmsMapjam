@@ -1,1 +1,2 @@
 execute if entity @s[team=t1] as @a[team=t1,distance=..5] at @s run function moba:game/abilities/god/1/3_execute
+execute if entity @s[team=t2] as @a[team=t2,distance=..5] at @s run function moba:game/abilities/god/1/3_execute

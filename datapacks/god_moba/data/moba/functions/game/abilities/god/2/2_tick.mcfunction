@@ -8,6 +8,7 @@ execute if score @s tmp matches ..0 run summon lightning_bolt ~ 55 ~
 tag @s add self
 execute if score @s tmp matches ..0 if entity @s[tag=t1] as @e[distance=..3,team=t2] run function utility:damage {target: "@s", amount: 5, type: "lightning_bolt", attacker: "@e[tag=self,limit=1]"} 
 execute if score @s tmp matches ..0 if entity @s[tag=t2] as @e[distance=..3,team=t1] run function utility:damage {target: "@s", amount: 5, type: "lightning_bolt", attacker: "@e[tag=self,limit=1]"} 
+execute if score @s tmp matches ..0 as @e[distance=..3,tag=junglemonster] run function utility:damage {target: "@s", amount: 5, type: "lightning_bolt", attacker: "@e[tag=self,limit=1]"} 
 tag @s remove self
 
 particle campfire_cosy_smoke ~ ~ ~ 1 0 1 0 10

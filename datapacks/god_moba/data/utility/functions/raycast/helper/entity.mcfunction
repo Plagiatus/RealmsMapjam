@@ -1,5 +1,6 @@
 $execute if entity @s[team=t1] positioned ~-0.5 ~-0.5 ~-0.5 as @e[team=t2,type=!#utility:no_raycast,dx=0,dy=0,dz=0,sort=nearest,limit=1,tag=!self] at @s run return run function $(function)
 $execute if entity @s[team=t2] positioned ~-0.5 ~-0.5 ~-0.5 as @e[team=t1,type=!#utility:no_raycast,dx=0,dy=0,dz=0,sort=nearest,limit=1,tag=!self] at @s run return run function $(function)
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=junglemonster,type=!#utility:no_raycast,dx=0,dy=0,dz=0,sort=nearest,limit=1,tag=!self] at @s run return run function $(function)
 $function $(step_function)
 
 scoreboard players remove #steps tmp 1

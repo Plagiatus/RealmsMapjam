@@ -1,12 +1,12 @@
-execute if entity @s[tag=ws] run summon wither_skeleton ~ ~ ~ {Tags:["junglemonster"]}
-execute if entity @s[tag=bz] run summon zombie_villager ~ ~ ~ {Tags:["junglemonster"], IsBaby:1b, ArmorDropChances:[0,0,0,0], ArmorItems:[{},{},{},{id:"stone_button",Count:1b}]}
-execute if entity @s[tag=bz] run summon zombie_villager ~ ~ ~ {Tags:["junglemonster"], IsBaby:1b, ArmorDropChances:[0,0,0,0], ArmorItems:[{},{},{},{id:"stone_button",Count:1b}]}
-execute if entity @s[tag=bz] run summon zombie_villager ~ ~ ~ {Tags:["junglemonster"], IsBaby:1b, ArmorDropChances:[0,0,0,0], ArmorItems:[{},{},{},{id:"stone_button",Count:1b}]}
-execute if entity @s[tag=wolves] run summon wolf ~ ~ ~ {Tags:["junglemonster"]}
-execute if entity @s[tag=wolves] run summon wolf ~ ~ ~ {Tags:["junglemonster"]}
-execute if entity @s[tag=wolves] run summon wolf ~ ~ ~ {Tags:["junglemonster"]}
-execute if entity @s[tag=ravager] run summon ravager ~ ~ ~ {Tags:["junglemonster"]}
-execute if entity @s[tag=wither] run summon wither ~ ~ ~ {Tags:["junglemonster"]}
+execute if entity @s[tag=ws] run summon wither_skeleton ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b}
+execute if entity @s[tag=bz] run summon zombie_villager ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b, IsBaby:1b, ArmorDropChances:[0,0,0,0], ArmorItems:[{},{},{},{id:"stone_button",Count:1b}]}
+execute if entity @s[tag=bz] run summon zombie_villager ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b, IsBaby:1b, ArmorDropChances:[0,0,0,0], ArmorItems:[{},{},{},{id:"stone_button",Count:1b}]}
+execute if entity @s[tag=bz] run summon zombie_villager ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b, IsBaby:1b, ArmorDropChances:[0,0,0,0], ArmorItems:[{},{},{},{id:"stone_button",Count:1b}]}
+execute if entity @s[tag=wolves] run summon wolf ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b}
+execute if entity @s[tag=wolves] run summon wolf ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b}
+execute if entity @s[tag=wolves] run summon wolf ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b}
+execute if entity @s[tag=ravager] run summon ravager ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b}
+execute if entity @s[tag=wither] run summon wither ~ ~ ~ {Tags:["junglemonster"],PersistenceRequired:1b}
 
 $execute as @e[tag=junglemonster,distance=..2] run scoreboard players set @s jungleid $(id)
 
