@@ -24,3 +24,6 @@ scoreboard objectives add zeus.spark_timer dummy
 scoreboard objectives add poseidon.sea_squall dummy
 scoreboard objectives add poseidon.sea_squall_timer dummy
 scoreboard objectives add poseidon.dolphin dummy
+scoreboard objectives add hades.downward dummy
+scoreboard objectives add hades.dog dummy
+scoreboard objectives add hades.valley dummy
