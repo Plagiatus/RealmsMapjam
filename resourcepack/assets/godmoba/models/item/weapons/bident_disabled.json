@@ -1,0 +1,6 @@
+{
+	"parent":"godmoba:item/weapons/bident",
+	"textures": {
+		"0": "godmoba:item/weapons/bident_disabled"
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent":"godmoba:item/weapons/trident",
+	"textures": {
+		"0": "godmoba:item/weapons/trident_disabled"
+    }
+}

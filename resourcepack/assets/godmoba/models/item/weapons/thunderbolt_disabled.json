@@ -1,0 +1,6 @@
+{
+	"parent":"godmoba:item/weapons/thunderbolt",
+	"textures": {
+		"0": "godmoba:item/weapons/thunderbolt_disabled"
+    }
+}

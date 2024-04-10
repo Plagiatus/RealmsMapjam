@@ -119,10 +119,10 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0, 2]
+			"translation": [-0.01, 3.75, 2]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 0, 2]
+			"translation": [-0.01, 3.75, 2]
 		},
 		"firstperson_righthand": {
 			"rotation": [-29.17, -17.1, -2.25],
