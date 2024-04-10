@@ -1,0 +1,2 @@
+$execute if entity @s[tag=utils.interact.rc] as @e[type=interaction,distance=..50,nbt={interaction:{player:$(UUID)}}] at @s run function utility:interact/run_rc
+$execute if entity @s[tag=utils.interact.lc] as @e[type=interaction,distance=..50,nbt={attack:{player:$(UUID)}}] at @s run function utility:interact/run_lc
