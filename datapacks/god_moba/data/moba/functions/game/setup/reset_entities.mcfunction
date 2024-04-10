@@ -1,4 +1,4 @@
-kill @e[type=!player,tag=!keep]
+kill @e[type=!player,tag=!keep,type=marker]
 
 # capture points
 summon marker -6 65 -23 {Tags:["capture","locked", "large", "t2"]}
