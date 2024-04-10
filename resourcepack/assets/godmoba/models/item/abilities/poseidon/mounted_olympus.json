@@ -1,0 +1,7 @@
+{
+	"parent": "godmoba:item/abilities/ability",
+	"textures": {
+		"ability_icon": "godmoba:item/abilities/poseidon/mounted_olympus",
+		"particle": "godmoba:item/abilities/poseidon/mounted_olympus"
+	}
+}

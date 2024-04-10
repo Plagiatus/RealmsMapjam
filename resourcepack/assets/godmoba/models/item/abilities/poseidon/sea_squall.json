@@ -1,0 +1,7 @@
+{
+	"parent": "godmoba:item/abilities/ability",
+	"textures": {
+		"ability_icon": "godmoba:item/abilities/poseidon/sea_squall",
+		"particle": "godmoba:item/abilities/poseidon/sea_squall"
+	}
+}

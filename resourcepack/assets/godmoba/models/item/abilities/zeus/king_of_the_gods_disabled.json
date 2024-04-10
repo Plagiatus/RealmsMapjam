@@ -1,0 +1,7 @@
+{
+	"parent": "godmoba:item/abilities/ability",
+	"textures": {
+		"ability_icon": "godmoba:item/abilities/zeus/king_of_the_gods_disabled",
+		"particle": "godmoba:item/abilities/zeus/king_of_the_gods_disabled"
+	}
+}
