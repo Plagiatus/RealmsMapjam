@@ -13,13 +13,22 @@
 		{"predicate": {"custom_model_data":106}, "model": "godmoba:item/abilities/zeus/king_of_the_gods"},
 		{"predicate": {"custom_model_data":107}, "model": "godmoba:item/abilities/zeus/king_of_the_gods_disabled"},
 		
-		{"predicate": {"custom_model_data":200}, "model": "godmoba:item/weapon/trident"},
-		{"predicate": {"custom_model_data":201}, "model": "godmoba:item/weapon/trident_disabled"},
+		{"predicate": {"custom_model_data":200}, "model": "godmoba:item/weapons/trident"},
+		{"predicate": {"custom_model_data":201}, "model": "godmoba:item/weapons/trident_disabled"},
 		{"predicate": {"custom_model_data":202}, "model": "godmoba:item/abilities/poseidon/sea_squall"},
 		{"predicate": {"custom_model_data":203}, "model": "godmoba:item/abilities/poseidon/sea_squall_disabled"},
 		{"predicate": {"custom_model_data":204}, "model": "godmoba:item/abilities/poseidon/mounted_olympus"},
 		{"predicate": {"custom_model_data":205}, "model": "godmoba:item/abilities/poseidon/mounted_olympus_disabled"},
 		{"predicate": {"custom_model_data":206}, "model": "godmoba:item/abilities/poseidon/dolphins_disgrace"},
-		{"predicate": {"custom_model_data":207}, "model": "godmoba:item/abilities/poseidon/dolphins_disgrace_disabled"}
+		{"predicate": {"custom_model_data":207}, "model": "godmoba:item/abilities/poseidon/dolphins_disgrace_disabled"},
+		
+		{"predicate": {"custom_model_data":300}, "model": "godmoba:item/weapons/bident"},
+		{"predicate": {"custom_model_data":301}, "model": "godmoba:item/weapons/bident_disabled"},
+		{"predicate": {"custom_model_data":302}, "model": "godmoba:item/abilities/hades/downward_bound"},
+		{"predicate": {"custom_model_data":303}, "model": "godmoba:item/abilities/hades/downward_bound_disabled"},
+		{"predicate": {"custom_model_data":304}, "model": "godmoba:item/abilities/hades/mans_last_friend"},
+		{"predicate": {"custom_model_data":305}, "model": "godmoba:item/abilities/hades/mans_last_friend_disabled"},
+		{"predicate": {"custom_model_data":306}, "model": "godmoba:item/abilities/hades/valley_of_souls"},
+		{"predicate": {"custom_model_data":307}, "model": "godmoba:item/abilities/hades/valley_of_souls_disabled"}
 	]
 }

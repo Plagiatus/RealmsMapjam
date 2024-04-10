@@ -1,0 +1,7 @@
+{
+	"parent": "godmoba:item/abilities/ability",
+	"textures": {
+		"ability_icon": "godmoba:item/abilities/hades/mans_last_friend",
+		"particle": "godmoba:item/abilities/hades/mans_last_friend"
+	}
+}

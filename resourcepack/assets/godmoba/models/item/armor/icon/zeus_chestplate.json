@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+	"layer0": "godmoba:item/transparent",
+    "layer1": "godmoba:item/armor/icon/zeus_chestplate"
+  }
+}
