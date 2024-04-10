@@ -11,11 +11,13 @@ spawnpoint @a[team=t2] 4 66 21
 team join spectator @a[team=]
 tp @a[team=spectator] @a[limit=1,sort=random,team=!spectator]
 gamemode spectator @a[team=spectator]
+gamemode adventure @a[team=!spectator]
 
 # if player doesn't have a god chosen, choose one at random
 execute as @a[team=!spectator] unless score @s god = @s god store result score @s god run random value 1..3
 
 function moba:game/setup/reset_entities
+function moba:game/abilities/setup
 execute as @a[team=!spectator] run function moba:game/setup/items
 
 
@@ -31,5 +33,11 @@ gamerule doWardenSpawning false
 gamerule naturalRegeneration false
 gamerule keepInventory true
 gamerule showDeathMessages false
+gamerule doImmediateRespawn true
+gamerule doWeatherCycle false
+
+weather clear
+
+scoreboard players add #game gameId 1
 
 # TODO some fancy stuff here, particles, sounds, maybe a start timer, or at least a title. 

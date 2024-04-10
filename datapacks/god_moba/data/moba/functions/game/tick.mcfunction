@@ -1,8 +1,9 @@
 # capture points
 execute as @e[tag=capture,type=marker,tag=!locked] at @s run function moba:game/capture/tick
 
-# weapons
-# execute if entity @a[tag=diety] as @a run function moba:weapon/player_tick
+# new / returning players
+execute as @a[scores={leave=1..}] unless score @s gameId = #game gameId run function moba:game/player
+scoreboard players set @a leave 0
 
 # abilities
 function moba:game/abilities/tick
