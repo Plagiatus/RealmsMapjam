@@ -3,7 +3,7 @@ item replace entity @s hotbar.1 with carrot_on_a_stick{ability:2,CustomModelData
 item replace entity @s hotbar.2 with carrot_on_a_stick{ability:3,CustomModelData:304,enabled:304,disabled:305,display:{Name:'{"text": "Man\'s Last Friend"}',Lore:['{"text":"Summons 3 wolves to fight with you"}','{"text":"for 30 seconds"}']}}
 item replace entity @s hotbar.3 with carrot_on_a_stick{ability:4,CustomModelData:306,enabled:306,disabled:307,display:{Name:'{"text": "Valley of Souls"}',Lore:['{"text":"Spawns a large soul cloud"}','{"text":"that increasingly slows enemies."}','{"text":"Enemies who stay in the cloud for"}','{"text":"too long are afflicted with wither"}']}}
 
-item replace entity @s armor.head with small_amethyst_bud{display:{Name:'{"text":"Hades\'s Helm"}'},CustomModelData:3}
-item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Hades\'s Armor"}',color:3},CustomModelData:3}
-item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Hades\'s Leggings"}',color:3},CustomModelData:3}
-item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Hades\'s Boots"}',color:3},CustomModelData:3}
+item replace entity @s armor.head with small_amethyst_bud{display:{Name:'{"text":"Hades\'s Helm"}'},CustomModelData:3,Enchantments:[{id:"binding_curse",lvl:1}]}
+item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Hades\'s Armor"}',color:3},CustomModelData:3,Unbreakable:1,Enchantments:[{id:"binding_curse",lvl:1}]}
+item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Hades\'s Leggings"}',color:3},CustomModelData:3,Unbreakable:1,Enchantments:[{id:"binding_curse",lvl:1}]}
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Hades\'s Boots"}',color:3},CustomModelData:3,Unbreakable:1,Enchantments:[{id:"binding_curse",lvl:1}]}
